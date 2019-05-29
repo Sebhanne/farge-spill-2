@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 10px;
+}
+.color {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border: 1px solid red;
+  background: #13b4ff;
+  padding: 60px;
+}
+.box1 {
+  background: green;
+}
+.box2 {
+  background: green;
+}
+
+.box3 {
+  background: green;
+}
+.box4 {
+  background: green;
+  float: left;
+}
+.box5 {
+  background: green;
+}
+.box6 {
+  background: green;
+}
+
+.w3-container_header {
+  flex: wrap;
+  text-align: center;
+  background: rgb(0, 191, 255);
+  margin: 0px;
+  padding: 10px;
+}
+.buttons {
+  margin: 0px;
+  background: green;
+  padding: 40px;
+}
+.container_boxes {
+  display: flex;
+  margin: 0;
+  background: black;
+  flex-wrap: wrap;
+  justify-content: center;
+}
